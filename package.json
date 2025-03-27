@@ -1,0 +1,20 @@
+{
+  "name": "mcp-mock-data-server",
+  "version": "1.0.0",
+  "description": "Faker.js 기반 Mock 데이터 생성 MCP 서버",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.0.0",
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
+  }
+}
